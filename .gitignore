@@ -1,0 +1,51 @@
+# Local data and complete execution histories
+data/
+results/
+logs/
+references/
+runs/
+outputs/
+reports/
+# Preserve the superseded workflow as reviewable repository history.
+archive/*
+!archive/inspection_workflow_2026_10_16/
+scratch/
+tmp/
+
+# research/ intentionally remains publishable, including CSV evidence.
+!research/
+!research/**
+
+# Secrets and local configuration
+.env
+.env.*
+*.env
+secrets/
+credentials/
+private/
+local/
+*.pem
+*.key
+*.p12
+*.pfx
+
+# Environments, caches and editor files
+.venv/
+venv/
+env/
+__pycache__/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+.DS_Store
+.ipynb_checkpoints/
+.vscode/
+.idea/
+*.log
+*.duckdb
+*.duckdb.wal
+*.sqlite
+*.sqlite3
+*.db
