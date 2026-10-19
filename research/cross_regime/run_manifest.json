@@ -1,0 +1,155 @@
+{
+  "stage": "11_g20_cross_regime",
+  "run_id": "20261016T085052724030Z",
+  "status": "cross_regime_computed",
+  "started_at_utc": "2026-10-16T08:50:52.724030+00:00",
+  "seed": null,
+  "design_id": "g20_cross_regime_v1",
+  "profile_run_id": "20261016T064844160033Z",
+  "pairwise_run_id": "20261016T065546839194Z",
+  "accepted_release_id": "20261016T071919171212Z",
+  "results_directory": "results/11_g20_cross_regime/20261016T085052724030Z",
+  "processed_directory": "data/processed/11_g20_cross_regime/20261016T085052724030Z",
+  "command": [
+    "/Users/f1/anaconda3/envs/aei-reproduction/bin/python",
+    "pipeline/11_g20_cross_regime.py"
+  ],
+  "working_directory": "/Users/f1/Documents/github_repos/ai_anthropic_econometrics_2",
+  "python": "3.11.17 (main, Oct 13 2026, 16:38:53) [Clang 21.1.8 ]",
+  "review_status": "pending_cross_regime_review",
+  "parameters": {
+    "contrast": "May 2026 minus August 2025",
+    "analysis_role": "secondary_cross_regime",
+    "estimand": "published_profiles_across_measurement_regimes",
+    "measurement_equivalence": "not_established",
+    "behavioral_change_identified": false,
+    "metric": "base-2 Jensen-Shannon distance; square root of divergence",
+    "weights": "equal countries and distinct unordered country pairs",
+    "automation_sd_ddof": 0,
+    "ranks": "Spearman: automation shares and pair distances separately",
+    "country_exclusion": "same country removed at both endpoints",
+    "mode_omission": "renormalize four modes; fixed country membership",
+    "own_profile_distance": "endpoint rearrangement, not convergence",
+    "uncertainty": "not estimated",
+    "models_fitted": false
+  },
+  "code_and_document_sha256": {
+    "pipeline/11_g20_cross_regime.py": "06132352f4d8d8eff12b78dd80e4df994f15887ab474a7e91972105d10040953",
+    "Makefile": "a7714dae403acbb3342c7da5f1b4b1dc4a8ec9134029c55394dadc7fed2029ce",
+    "environment.yml": "ecdd8650b3927bb5eb4b0cc931aef0c7178e55f8469e47352b5bda7a371bfd07",
+    "docs/g20_cross_regime_plan_2026_10_16.md": "8ac1ac7fc90b803fc6fdbabedc66865369303736857aa889cf02a5e893f780bc",
+    "docs/measurement_register.md": "ab5e61c9a0b4398f0a739405edfd2f3a85e196d7edcb027c0623648c29fca5bb",
+    "docs/g20_cross_regime_inputs_2026_10_16.json": "2d984d08f59d2c1f82795060c0bfda2313fd9d9b017982917158f2202553078b"
+  },
+  "packages": {
+    "numpy": "2.4.6",
+    "pandas": "3.0.3",
+    "pyarrow": "24.0.0",
+    "scipy": "1.17.1",
+    "matplotlib": "3.11.0"
+  },
+  "input_inventory": [
+    {
+      "path": "data/processed/07_g20_profiles/20261016T064844160033Z/country_profiles.parquet",
+      "sha256": "41b2d611964af5b3c042403b27763ee887e45ca8705f363f3daaa60b7c5f6479"
+    },
+    {
+      "path": "data/processed/08_g20_pairwise/20261016T065546839194Z/pairwise_distances.parquet",
+      "sha256": "a340946e61f70ba0ae7f44248a714d1d6865dbbb2d8b8c906c818de988e1f4e3"
+    },
+    {
+      "path": "data/processed/08_g20_pairwise/20261016T065546839194Z/country_distances.parquet",
+      "sha256": "af190df5163b403a6821746aa5f1a826391aaaa0a1acc76427f604a5f2fc2c53"
+    },
+    {
+      "path": "results/08_g20_pairwise/20261016T065546839194Z/window_summary.parquet",
+      "sha256": "688bb51aa6f9a7bca41ed4d0090433ad38fe8401fe1a594ee97a9b8d88b0f7cb"
+    },
+    {
+      "path": "results/08_g20_pairwise/20261016T065546839194Z/run_manifest.json",
+      "sha256": "fe0b2022264da7fa82b830e5226586632c6b0f748fa9f419786522ed5f134dc5"
+    },
+    {
+      "path": "results/08_g20_pairwise/20261016T065546839194Z/review_counts.parquet",
+      "sha256": "fc8e4894a01a7ff05f4ce904846016995674f247dfa43a9574ab51eadea8691c"
+    },
+    {
+      "path": "results/research_note/g20_profiles_v1/20261016T071919171212Z/release_manifest.json",
+      "sha256": "8beabefcd1ff3c5dc757705e865cb822cafacb566694bb98203d7c8b5df71f34"
+    },
+    {
+      "path": "docs/g20_cross_regime_inputs_2026_10_16.json",
+      "sha256": "2d984d08f59d2c1f82795060c0bfda2313fd9d9b017982917158f2202553078b"
+    }
+  ],
+  "cross_regime_checks_passed": true,
+  "completed_at_utc": "2026-10-16T08:50:53.938983+00:00",
+  "row_counts": {
+    "window_summary": 2,
+    "contrasts": 1,
+    "country_changes": 17,
+    "pair_changes": 136,
+    "mode_dispersion": 10,
+    "rank_persistence": 2,
+    "country_influence": 17,
+    "mode_sensitivity_windows": 10,
+    "mode_sensitivity_contrasts": 5,
+    "numerical_diagnostics": 1,
+    "review_counts": 2
+  },
+  "review_checks": [
+    {
+      "run_id": "20261016T085052724030Z",
+      "check": "endpoint_identity_checks",
+      "flagged_rows": 0,
+      "status": "no_flags",
+      "design_id": "g20_cross_regime_v1",
+      "analysis_role": "secondary_cross_regime",
+      "comparison_id": "august_may_cross_regime",
+      "estimand": "published_profiles_across_measurement_regimes",
+      "measurement_equivalence": "not_established",
+      "behavioral_change_identified": false,
+      "stage7_run_id": "20261016T064844160033Z",
+      "stage8_run_id": "20261016T065546839194Z"
+    },
+    {
+      "run_id": "20261016T085052724030Z",
+      "check": "mode_distance_checks",
+      "flagged_rows": 0,
+      "status": "no_flags",
+      "design_id": "g20_cross_regime_v1",
+      "analysis_role": "secondary_cross_regime",
+      "comparison_id": "august_may_cross_regime",
+      "estimand": "published_profiles_across_measurement_regimes",
+      "measurement_equivalence": "not_established",
+      "behavioral_change_identified": false,
+      "stage7_run_id": "20261016T064844160033Z",
+      "stage8_run_id": "20261016T065546839194Z"
+    }
+  ],
+  "artifacts": {
+    "data": {
+      "country_changes": "data/processed/11_g20_cross_regime/20261016T085052724030Z/country_changes.parquet",
+      "pair_changes": "data/processed/11_g20_cross_regime/20261016T085052724030Z/pair_changes.parquet"
+    },
+    "review_tables": [
+      "window_summary",
+      "contrasts",
+      "country_changes",
+      "pair_changes",
+      "mode_dispersion",
+      "rank_persistence",
+      "country_influence",
+      "mode_sensitivity_windows",
+      "mode_sensitivity_contrasts",
+      "numerical_diagnostics",
+      "review_counts"
+    ],
+    "figures": [
+      "country_changes.png",
+      "country_changes.pdf",
+      "mode_changes.png",
+      "mode_changes.pdf"
+    ]
+  }
+}

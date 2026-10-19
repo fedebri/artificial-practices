@@ -1,0 +1,16 @@
+{
+  "dataset": "Anthropic/EconomicIndex",
+  "source_url": "https://huggingface.co/datasets/Anthropic/EconomicIndex",
+  "source_vintage": "same bytes as the reviewed October 2026 study",
+  "sha256": {
+    "data/raw/release_2025_09_15/data/intermediate/aei_raw_claude_ai_2025-08-04_to_2025-08-11.csv": "c8ef9c5eee0c42febc73e358ecc7d2358e0a0ce3b50122c0c15ae8ec569aceff",
+    "data/raw/release_2025_09_15/data_documentation.md": "d7e23aa0888628fdeb27f49a14e151c41ea99d47bd5dd65e84383b203c23464a",
+    "data/raw/release_2026_01_15/data/intermediate/aei_raw_claude_ai_2025-11-13_to_2025-11-20.csv": "70dc16780061b84d3f34ddf7fe5c978d65c99a5ef58afd78f9315f886a6a5873",
+    "data/raw/release_2026_01_15/data_documentation.md": "50f117f8f995606004680749fc43012d2bd83c5fc9dab6044a935f601643ef6f",
+    "data/raw/release_2026_03_24/data/aei_raw_claude_ai_2026-02-05_to_2026-02-12.csv": "69ebf6f9afc1e3be45caab172a84ae09e78bf41b97e1c310100d81c8a35a7433",
+    "data/raw/release_2026_03_24/data_documentation.md": "0a194ff1e317567e8b5d68d581fa2e5f8a1d3112f71aa209d2caa408ee12a779",
+    "data/raw/release_2026_06_26/data/aei_claude_ai_2026-06-26.csv": "f974b358bce0e5a8417510c61da4342234cd0de9d9d0b62acf4c6dbcf8ec7b68",
+    "data/raw/release_2026_06_26/data_documentation.md": "1a01eeb7d34250b192aa9c906098bea1db971644e6bdb04497d87b7a4ed141a5",
+    "data/raw/release_2025_09_15/data/intermediate/iso_country_codes.csv": "eee318d4ab2c2c30f5a7da11f2bc7e0e36c246f6be5bb9b323fdb12b8e4809e0"
+  }
+}

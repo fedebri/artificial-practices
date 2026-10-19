@@ -1,0 +1,6 @@
+run_id,source_id,date_start,date_end,measurement_era,end_date_convention
+20261015T165424126402Z,release_2025_09_15,2025-08-04,2025-08-11,legacy,unspecified
+20261015T165424126402Z,release_2026_01_15,2025-11-13,2025-11-20,legacy,unspecified
+20261015T165424126402Z,release_2026_03_24,2026-02-05,2026-02-12,legacy,unspecified
+20261015T165424126402Z,release_2026_06_26,2026-04-01,2026-05-01,monthly,exclusive
+20261015T165424126402Z,release_2026_06_26,2026-05-01,2026-06-01,monthly,exclusive

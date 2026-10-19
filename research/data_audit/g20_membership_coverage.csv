@@ -1,0 +1,96 @@
+run_id,country_iso3,country_label,source_id,date_start,date_end,measurement_era,end_date_convention,published_partition,partition_eligible,source_exclusion_reason,country_in_audited_scope,required_windows,eligible_windows,included,coverage_status
+20261016T064844160033Z,ARG,Argentina,release_2025_09_15,2025-08-04,2025-08-11,legacy,unspecified,True,True,,True,5,5,True,eligible_all_five
+20261016T064844160033Z,ARG,Argentina,release_2026_01_15,2025-11-13,2025-11-20,legacy,unspecified,True,True,,True,5,5,True,eligible_all_five
+20261016T064844160033Z,ARG,Argentina,release_2026_03_24,2026-02-05,2026-02-12,legacy,unspecified,True,True,,True,5,5,True,eligible_all_five
+20261016T064844160033Z,ARG,Argentina,release_2026_06_26,2026-04-01,2026-05-01,monthly,exclusive,True,True,,True,5,5,True,eligible_all_five
+20261016T064844160033Z,ARG,Argentina,release_2026_06_26,2026-05-01,2026-06-01,monthly,exclusive,True,True,,True,5,5,True,eligible_all_five
+20261016T064844160033Z,AUS,Australia,release_2025_09_15,2025-08-04,2025-08-11,legacy,unspecified,True,True,,True,5,5,True,eligible_all_five
+20261016T064844160033Z,AUS,Australia,release_2026_01_15,2025-11-13,2025-11-20,legacy,unspecified,True,True,,True,5,5,True,eligible_all_five
+20261016T064844160033Z,AUS,Australia,release_2026_03_24,2026-02-05,2026-02-12,legacy,unspecified,True,True,,True,5,5,True,eligible_all_five
+20261016T064844160033Z,AUS,Australia,release_2026_06_26,2026-04-01,2026-05-01,monthly,exclusive,True,True,,True,5,5,True,eligible_all_five
+20261016T064844160033Z,AUS,Australia,release_2026_06_26,2026-05-01,2026-06-01,monthly,exclusive,True,True,,True,5,5,True,eligible_all_five
+20261016T064844160033Z,BRA,Brazil,release_2025_09_15,2025-08-04,2025-08-11,legacy,unspecified,True,True,,True,5,5,True,eligible_all_five
+20261016T064844160033Z,BRA,Brazil,release_2026_01_15,2025-11-13,2025-11-20,legacy,unspecified,True,True,,True,5,5,True,eligible_all_five
+20261016T064844160033Z,BRA,Brazil,release_2026_03_24,2026-02-05,2026-02-12,legacy,unspecified,True,True,,True,5,5,True,eligible_all_five
+20261016T064844160033Z,BRA,Brazil,release_2026_06_26,2026-04-01,2026-05-01,monthly,exclusive,True,True,,True,5,5,True,eligible_all_five
+20261016T064844160033Z,BRA,Brazil,release_2026_06_26,2026-05-01,2026-06-01,monthly,exclusive,True,True,,True,5,5,True,eligible_all_five
+20261016T064844160033Z,CAN,Canada,release_2025_09_15,2025-08-04,2025-08-11,legacy,unspecified,True,True,,True,5,5,True,eligible_all_five
+20261016T064844160033Z,CAN,Canada,release_2026_01_15,2025-11-13,2025-11-20,legacy,unspecified,True,True,,True,5,5,True,eligible_all_five
+20261016T064844160033Z,CAN,Canada,release_2026_03_24,2026-02-05,2026-02-12,legacy,unspecified,True,True,,True,5,5,True,eligible_all_five
+20261016T064844160033Z,CAN,Canada,release_2026_06_26,2026-04-01,2026-05-01,monthly,exclusive,True,True,,True,5,5,True,eligible_all_five
+20261016T064844160033Z,CAN,Canada,release_2026_06_26,2026-05-01,2026-06-01,monthly,exclusive,True,True,,True,5,5,True,eligible_all_five
+20261016T064844160033Z,CHN,China,release_2025_09_15,2025-08-04,2025-08-11,legacy,unspecified,False,False,,False,5,0,False,not_published_in_any_audited_window
+20261016T064844160033Z,CHN,China,release_2026_01_15,2025-11-13,2025-11-20,legacy,unspecified,False,False,,False,5,0,False,not_published_in_any_audited_window
+20261016T064844160033Z,CHN,China,release_2026_03_24,2026-02-05,2026-02-12,legacy,unspecified,False,False,,False,5,0,False,not_published_in_any_audited_window
+20261016T064844160033Z,CHN,China,release_2026_06_26,2026-04-01,2026-05-01,monthly,exclusive,False,False,,False,5,0,False,not_published_in_any_audited_window
+20261016T064844160033Z,CHN,China,release_2026_06_26,2026-05-01,2026-06-01,monthly,exclusive,False,False,,False,5,0,False,not_published_in_any_audited_window
+20261016T064844160033Z,FRA,France,release_2025_09_15,2025-08-04,2025-08-11,legacy,unspecified,True,True,,True,5,5,True,eligible_all_five
+20261016T064844160033Z,FRA,France,release_2026_01_15,2025-11-13,2025-11-20,legacy,unspecified,True,True,,True,5,5,True,eligible_all_five
+20261016T064844160033Z,FRA,France,release_2026_03_24,2026-02-05,2026-02-12,legacy,unspecified,True,True,,True,5,5,True,eligible_all_five
+20261016T064844160033Z,FRA,France,release_2026_06_26,2026-04-01,2026-05-01,monthly,exclusive,True,True,,True,5,5,True,eligible_all_five
+20261016T064844160033Z,FRA,France,release_2026_06_26,2026-05-01,2026-06-01,monthly,exclusive,True,True,,True,5,5,True,eligible_all_five
+20261016T064844160033Z,DEU,Germany,release_2025_09_15,2025-08-04,2025-08-11,legacy,unspecified,True,True,,True,5,5,True,eligible_all_five
+20261016T064844160033Z,DEU,Germany,release_2026_01_15,2025-11-13,2025-11-20,legacy,unspecified,True,True,,True,5,5,True,eligible_all_five
+20261016T064844160033Z,DEU,Germany,release_2026_03_24,2026-02-05,2026-02-12,legacy,unspecified,True,True,,True,5,5,True,eligible_all_five
+20261016T064844160033Z,DEU,Germany,release_2026_06_26,2026-04-01,2026-05-01,monthly,exclusive,True,True,,True,5,5,True,eligible_all_five
+20261016T064844160033Z,DEU,Germany,release_2026_06_26,2026-05-01,2026-06-01,monthly,exclusive,True,True,,True,5,5,True,eligible_all_five
+20261016T064844160033Z,IND,India,release_2025_09_15,2025-08-04,2025-08-11,legacy,unspecified,True,True,,True,5,5,True,eligible_all_five
+20261016T064844160033Z,IND,India,release_2026_01_15,2025-11-13,2025-11-20,legacy,unspecified,True,True,,True,5,5,True,eligible_all_five
+20261016T064844160033Z,IND,India,release_2026_03_24,2026-02-05,2026-02-12,legacy,unspecified,True,True,,True,5,5,True,eligible_all_five
+20261016T064844160033Z,IND,India,release_2026_06_26,2026-04-01,2026-05-01,monthly,exclusive,True,True,,True,5,5,True,eligible_all_five
+20261016T064844160033Z,IND,India,release_2026_06_26,2026-05-01,2026-06-01,monthly,exclusive,True,True,,True,5,5,True,eligible_all_five
+20261016T064844160033Z,IDN,Indonesia,release_2025_09_15,2025-08-04,2025-08-11,legacy,unspecified,True,True,,True,5,5,True,eligible_all_five
+20261016T064844160033Z,IDN,Indonesia,release_2026_01_15,2025-11-13,2025-11-20,legacy,unspecified,True,True,,True,5,5,True,eligible_all_five
+20261016T064844160033Z,IDN,Indonesia,release_2026_03_24,2026-02-05,2026-02-12,legacy,unspecified,True,True,,True,5,5,True,eligible_all_five
+20261016T064844160033Z,IDN,Indonesia,release_2026_06_26,2026-04-01,2026-05-01,monthly,exclusive,True,True,,True,5,5,True,eligible_all_five
+20261016T064844160033Z,IDN,Indonesia,release_2026_06_26,2026-05-01,2026-06-01,monthly,exclusive,True,True,,True,5,5,True,eligible_all_five
+20261016T064844160033Z,ITA,Italy,release_2025_09_15,2025-08-04,2025-08-11,legacy,unspecified,True,True,,True,5,5,True,eligible_all_five
+20261016T064844160033Z,ITA,Italy,release_2026_01_15,2025-11-13,2025-11-20,legacy,unspecified,True,True,,True,5,5,True,eligible_all_five
+20261016T064844160033Z,ITA,Italy,release_2026_03_24,2026-02-05,2026-02-12,legacy,unspecified,True,True,,True,5,5,True,eligible_all_five
+20261016T064844160033Z,ITA,Italy,release_2026_06_26,2026-04-01,2026-05-01,monthly,exclusive,True,True,,True,5,5,True,eligible_all_five
+20261016T064844160033Z,ITA,Italy,release_2026_06_26,2026-05-01,2026-06-01,monthly,exclusive,True,True,,True,5,5,True,eligible_all_five
+20261016T064844160033Z,JPN,Japan,release_2025_09_15,2025-08-04,2025-08-11,legacy,unspecified,True,True,,True,5,5,True,eligible_all_five
+20261016T064844160033Z,JPN,Japan,release_2026_01_15,2025-11-13,2025-11-20,legacy,unspecified,True,True,,True,5,5,True,eligible_all_five
+20261016T064844160033Z,JPN,Japan,release_2026_03_24,2026-02-05,2026-02-12,legacy,unspecified,True,True,,True,5,5,True,eligible_all_five
+20261016T064844160033Z,JPN,Japan,release_2026_06_26,2026-04-01,2026-05-01,monthly,exclusive,True,True,,True,5,5,True,eligible_all_five
+20261016T064844160033Z,JPN,Japan,release_2026_06_26,2026-05-01,2026-06-01,monthly,exclusive,True,True,,True,5,5,True,eligible_all_five
+20261016T064844160033Z,MEX,Mexico,release_2025_09_15,2025-08-04,2025-08-11,legacy,unspecified,True,True,,True,5,5,True,eligible_all_five
+20261016T064844160033Z,MEX,Mexico,release_2026_01_15,2025-11-13,2025-11-20,legacy,unspecified,True,True,,True,5,5,True,eligible_all_five
+20261016T064844160033Z,MEX,Mexico,release_2026_03_24,2026-02-05,2026-02-12,legacy,unspecified,True,True,,True,5,5,True,eligible_all_five
+20261016T064844160033Z,MEX,Mexico,release_2026_06_26,2026-04-01,2026-05-01,monthly,exclusive,True,True,,True,5,5,True,eligible_all_five
+20261016T064844160033Z,MEX,Mexico,release_2026_06_26,2026-05-01,2026-06-01,monthly,exclusive,True,True,,True,5,5,True,eligible_all_five
+20261016T064844160033Z,RUS,Russia,release_2025_09_15,2025-08-04,2025-08-11,legacy,unspecified,False,False,,False,5,0,False,not_published_in_any_audited_window
+20261016T064844160033Z,RUS,Russia,release_2026_01_15,2025-11-13,2025-11-20,legacy,unspecified,False,False,,False,5,0,False,not_published_in_any_audited_window
+20261016T064844160033Z,RUS,Russia,release_2026_03_24,2026-02-05,2026-02-12,legacy,unspecified,False,False,,False,5,0,False,not_published_in_any_audited_window
+20261016T064844160033Z,RUS,Russia,release_2026_06_26,2026-04-01,2026-05-01,monthly,exclusive,False,False,,False,5,0,False,not_published_in_any_audited_window
+20261016T064844160033Z,RUS,Russia,release_2026_06_26,2026-05-01,2026-06-01,monthly,exclusive,False,False,,False,5,0,False,not_published_in_any_audited_window
+20261016T064844160033Z,SAU,Saudi Arabia,release_2025_09_15,2025-08-04,2025-08-11,legacy,unspecified,True,True,,True,5,5,True,eligible_all_five
+20261016T064844160033Z,SAU,Saudi Arabia,release_2026_01_15,2025-11-13,2025-11-20,legacy,unspecified,True,True,,True,5,5,True,eligible_all_five
+20261016T064844160033Z,SAU,Saudi Arabia,release_2026_03_24,2026-02-05,2026-02-12,legacy,unspecified,True,True,,True,5,5,True,eligible_all_five
+20261016T064844160033Z,SAU,Saudi Arabia,release_2026_06_26,2026-04-01,2026-05-01,monthly,exclusive,True,True,,True,5,5,True,eligible_all_five
+20261016T064844160033Z,SAU,Saudi Arabia,release_2026_06_26,2026-05-01,2026-06-01,monthly,exclusive,True,True,,True,5,5,True,eligible_all_five
+20261016T064844160033Z,ZAF,South Africa,release_2025_09_15,2025-08-04,2025-08-11,legacy,unspecified,True,True,,True,5,5,True,eligible_all_five
+20261016T064844160033Z,ZAF,South Africa,release_2026_01_15,2025-11-13,2025-11-20,legacy,unspecified,True,True,,True,5,5,True,eligible_all_five
+20261016T064844160033Z,ZAF,South Africa,release_2026_03_24,2026-02-05,2026-02-12,legacy,unspecified,True,True,,True,5,5,True,eligible_all_five
+20261016T064844160033Z,ZAF,South Africa,release_2026_06_26,2026-04-01,2026-05-01,monthly,exclusive,True,True,,True,5,5,True,eligible_all_five
+20261016T064844160033Z,ZAF,South Africa,release_2026_06_26,2026-05-01,2026-06-01,monthly,exclusive,True,True,,True,5,5,True,eligible_all_five
+20261016T064844160033Z,KOR,South Korea,release_2025_09_15,2025-08-04,2025-08-11,legacy,unspecified,True,True,,True,5,5,True,eligible_all_five
+20261016T064844160033Z,KOR,South Korea,release_2026_01_15,2025-11-13,2025-11-20,legacy,unspecified,True,True,,True,5,5,True,eligible_all_five
+20261016T064844160033Z,KOR,South Korea,release_2026_03_24,2026-02-05,2026-02-12,legacy,unspecified,True,True,,True,5,5,True,eligible_all_five
+20261016T064844160033Z,KOR,South Korea,release_2026_06_26,2026-04-01,2026-05-01,monthly,exclusive,True,True,,True,5,5,True,eligible_all_five
+20261016T064844160033Z,KOR,South Korea,release_2026_06_26,2026-05-01,2026-06-01,monthly,exclusive,True,True,,True,5,5,True,eligible_all_five
+20261016T064844160033Z,TUR,Türkiye,release_2025_09_15,2025-08-04,2025-08-11,legacy,unspecified,True,True,,True,5,5,True,eligible_all_five
+20261016T064844160033Z,TUR,Türkiye,release_2026_01_15,2025-11-13,2025-11-20,legacy,unspecified,True,True,,True,5,5,True,eligible_all_five
+20261016T064844160033Z,TUR,Türkiye,release_2026_03_24,2026-02-05,2026-02-12,legacy,unspecified,True,True,,True,5,5,True,eligible_all_five
+20261016T064844160033Z,TUR,Türkiye,release_2026_06_26,2026-04-01,2026-05-01,monthly,exclusive,True,True,,True,5,5,True,eligible_all_five
+20261016T064844160033Z,TUR,Türkiye,release_2026_06_26,2026-05-01,2026-06-01,monthly,exclusive,True,True,,True,5,5,True,eligible_all_five
+20261016T064844160033Z,GBR,United Kingdom,release_2025_09_15,2025-08-04,2025-08-11,legacy,unspecified,True,True,,True,5,5,True,eligible_all_five
+20261016T064844160033Z,GBR,United Kingdom,release_2026_01_15,2025-11-13,2025-11-20,legacy,unspecified,True,True,,True,5,5,True,eligible_all_five
+20261016T064844160033Z,GBR,United Kingdom,release_2026_03_24,2026-02-05,2026-02-12,legacy,unspecified,True,True,,True,5,5,True,eligible_all_five
+20261016T064844160033Z,GBR,United Kingdom,release_2026_06_26,2026-04-01,2026-05-01,monthly,exclusive,True,True,,True,5,5,True,eligible_all_five
+20261016T064844160033Z,GBR,United Kingdom,release_2026_06_26,2026-05-01,2026-06-01,monthly,exclusive,True,True,,True,5,5,True,eligible_all_five
+20261016T064844160033Z,USA,United States,release_2025_09_15,2025-08-04,2025-08-11,legacy,unspecified,True,True,,True,5,5,True,eligible_all_five
+20261016T064844160033Z,USA,United States,release_2026_01_15,2025-11-13,2025-11-20,legacy,unspecified,True,True,,True,5,5,True,eligible_all_five
+20261016T064844160033Z,USA,United States,release_2026_03_24,2026-02-05,2026-02-12,legacy,unspecified,True,True,,True,5,5,True,eligible_all_five
+20261016T064844160033Z,USA,United States,release_2026_06_26,2026-04-01,2026-05-01,monthly,exclusive,True,True,,True,5,5,True,eligible_all_five
+20261016T064844160033Z,USA,United States,release_2026_06_26,2026-05-01,2026-06-01,monthly,exclusive,True,True,,True,5,5,True,eligible_all_five
