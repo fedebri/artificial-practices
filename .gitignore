@@ -1,3 +1,10 @@
+# Portable defaults for local/generated data.
+# Reviewed project exceptions below take precedence.
+*.csv
+*.parquet
+*.arrow
+*.jsonl
+
 # Local data and complete execution histories
 data/
 results/
@@ -17,17 +24,10 @@ tmp/
 !research/**
 
 # Secrets and local configuration
-.env
-.env.*
-*.env
 secrets/
 credentials/
 private/
 local/
-*.pem
-*.key
-*.p12
-*.pfx
 
 # Environments, caches and editor files
 .venv/
@@ -39,7 +39,6 @@ __pycache__/
 .ruff_cache/
 .coverage
 htmlcov/
-.DS_Store
 .ipynb_checkpoints/
 .vscode/
 .idea/
@@ -49,3 +48,24 @@ htmlcov/
 *.sqlite
 *.sqlite3
 *.db
+
+# Shared credential and OS safety baseline; keep independent of global Git config.
+# Existing reviewed template exceptions follow this block.
+.env
+.env.*
+*.env
+.dev.vars
+.dev.vars.*
+*.pem
+*.key
+*.p12
+*.pfx
+*service-account*.json
+id_rsa
+id_dsa
+id_ecdsa
+id_ed25519
+
+# macOS metadata
+.DS_Store
+.AppleDouble
